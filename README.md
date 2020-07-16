@@ -1,8 +1,8 @@
 # Discord-soundboard-bot
 
-A discord version of:  
+A slim discord version of: https://github.com/davidbegin/chat_thief  
 
-Using this repo for sounds: 
+Using this repo for sounds: https://github.com/davidbegin/twitch-soundboard
 
 A bot that joins a discord and plays sounds when requested.
 

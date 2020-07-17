@@ -20,3 +20,5 @@ A bot that joins a discord and plays sounds when requested.
 
 ffmpeg for windows: https://ffmpeg.zeranoe.com/builds/
 
+Discord.py: https://pypi.org/project/discord.py/
+

@@ -2,6 +2,7 @@
 import os
 import random
 import urllib.request, json
+import sched, time
 
 
 import discord
@@ -13,8 +14,87 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
+#setup timer
+s = sched.scheduler(time.time, time.sleep)
+
 client = discord.Client()
 bot = commands.Bot(command_prefix = "!")
+
+def restoreMana(sc):
+    with open('json/mana.json', 'r+') as manaFile:
+        data = json.load(manaFile)
+
+        for value in data:
+            data[f"{value}"]['mana'] = 3
+            
+
+        manaFile.seek(0)
+        json.dump(data, manaFile, indent=2)
+        manaFile.close()
+        print("mana restored")
+
+        s.enter(60, 1, restoreMana, (sc,))
+
+
+#give user mana
+def assignMana(amount, user):
+    #first check if they are in the file
+    with open('json/mana.json', 'r+') as manaFile:
+        data = json.load(manaFile)
+
+        for value in data:
+            if(data[f"{value}"]['user'] == user):
+                print("User in file")
+                #if they are update amount
+                data[f"{value}"]['mana'] = amount
+                manaFile.seek(0)
+                json.dump(data, manaFile, indent=2)
+                manaFile.close()
+                return
+                
+        #if not add to file
+        print("User not in File")
+        newEntry ={
+            f"{user}":{
+                "user" : f"{user}",
+                "mana" : amount
+                }
+                }
+        data.update(newEntry)
+        manaFile.seek(0)
+        json.dump(data, manaFile, indent=2)
+        manaFile.close()
+
+
+def useMana(user):
+    #first check if they are in the file
+    with open('json/mana.json', 'r+') as manaFile:
+        data = json.load(manaFile)
+
+        for value in data:
+            if(data[f"{value}"]['user'] == user):
+                print("User in file")
+                #if they are update amount
+                data[f"{value}"]['mana'] = data[f"{value}"]['mana'] - 1
+                manaFile.seek(0)
+                json.dump(data, manaFile, indent=2)
+                manaFile.close()
+
+def getMana(user):
+     #first check if they are in the file
+    with open('json/mana.json', 'r+') as manaFile:
+        data = json.load(manaFile)
+
+        for value in data:
+            if(data[f"{value}"]['user'] == user):
+                print("User in file")
+                #if they are update amount
+                if(data[f"{value}"]['mana'] <= 0):
+                    manaFile.close()
+                    return False
+                else:
+                    manaFile.close()
+                    return True
 
 
 #can user play the sound
@@ -55,6 +135,10 @@ async def on_voice_state_update(member, before, after):
             if after.channel.name == 'General':
                 #print(dir(member))
                 user = member.display_name.lower()
+    
+                #update mana
+                assignMana(3, user)
+
 
                 themeSoundsFilePath = "C:/gits/twitch-soundboard/theme_songs/"
     
@@ -73,7 +157,7 @@ async def on_voice_state_update(member, before, after):
                 member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}{fileExt[1]}"), after=lambda e: print('done', e))   
             
 #bot joins the server
-@bot.command(name="joinServer", description="join a voice channel", pass_context=True,)
+@bot.command(name="join", description="join a voice channel", pass_context=True,)
 async def joinServer(ctx):
     voicechannel = discord.utils.get(ctx.guild.channels, name='General')
     await voicechannel.connect()
@@ -90,27 +174,33 @@ async def playSound(ctx):
 
     canPlay = getSound(soundeffect,username)
 
+    hasMana = getMana(username)
+
     if(canPlay == True):
+        if(hasMana == True):
 
-        soundsFilePath = "C:/gits/twitch-soundboard/"
-
-        fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.wav")
-        fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.wav")
-        if(fileExists == False):
-            fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.opus")
-            fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.opus")
+            soundsFilePath = "C:/gits/twitch-soundboard/"
+    
+            fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.wav")
+            fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.wav")
             if(fileExists == False):
-                fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.m4a")
-                fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.m4a")
+                fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.opus")
+                fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.opus")
                 if(fileExists == False):
-                    fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.mp3")
-                    fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.mp3")
+                    fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.m4a")
+                    fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.m4a")
+                    if(fileExists == False):
+                        fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.mp3")
+                        fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.mp3")
+    
+    
+            print(fileExt)
+            print(f"trying to play {soundeffect}")
 
-
-        print(fileExt)
-        print(f"trying to play {soundeffect}")
-
-        ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}{fileExt[1]}"), after=lambda e: print('done', e))
+            ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}{fileExt[1]}"), after=lambda e: print('done', e))
+            useMana(username)
+        else:
+            await ctx.channel.send(f"@{username} you don't have any mana.")
     else:
         await ctx.channel.send(f"@{username} you don't have access to sound: {soundeffect}.")
 
@@ -130,6 +220,35 @@ async def me(ctx):
     print(url)
     await ctx.channel.send(url)
 
+@bot.command(name="perms", description="get owners of a sound", pass_context=True)
+async def permissions(ctx):
+    print(ctx.message.content)
+
+    soundeffect = ctx.message.content.split('!perms ')
+    soundeffect = soundeffect[1]
+
+    with open('json/commands.json') as json_file:
+        data = json.load(json_file)
+        data = data['commands']
+        
+        for value in data:
+            try:
+                if(data[f"{value}"]['name'] == soundeffect):
+                    permittedUsers = data[f"{value}"]['permitted_users']
+            except KeyError:
+                continue
+
+    await ctx.channel.send(f"Users that own sound: {soundeffect}: {permittedUsers}")
+
+
+
+
 
 #run
+s.enter(10, 1, restoreMana, (s,))
+
+#s.run()
 bot.run(TOKEN)
+
+
+

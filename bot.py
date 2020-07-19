@@ -12,6 +12,15 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix = "!")
 
+#check if path is real
+def getRealSound(path, filename):
+    exts = {'wav', 'opus', 'm4a', 'mp3'}
+
+    for ext in exts:
+        if(os.path.exists(f"{path}{filename}.{ext}")):
+            print (f"{path}{filename}.{ext}")
+            return ext
+
 
 #give user mana
 def assignMana(amount, user):
@@ -109,27 +118,16 @@ def getSound(sound, user):
 async def on_voice_state_update(member, before, after):
     if member.display_name.lower() != 'chat_theif':
         if before.channel is None and after.channel is not None:
-           
+            
             #print(dir(member))
             user = member.display_name.lower()
 
             #update mana
             assignMana(3, user)
             themeSoundsFilePath = "C:/gits/twitch-soundboard/theme_songs/"
-
-            fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.wav")
-            fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.wav")
-            if(fileExists == False):
-                fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.opus")
-                fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.opus")
-                if(fileExists == False):
-                    fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.m4a")
-                    fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.m4a")
-                    if(fileExists == False):
-                        fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.mp3")
-                        fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.mp3")
-
-            member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}{fileExt[1]}"), after=lambda e: print('done', e))   
+            ext = getRealSound(themeSoundsFilePath, user)
+            
+            member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}.{ext}"), after=lambda e: print('done', e))   
             
 #bot joins the server
 @bot.command(name="join", description="join a voice channel", pass_context=True,)
@@ -155,24 +153,11 @@ async def playSound(ctx):
         if(hasMana == True):
 
             soundsFilePath = "C:/gits/twitch-soundboard/"
-    
-            fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.wav")
-            fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.wav")
-            if(fileExists == False):
-                fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.opus")
-                fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.opus")
-                if(fileExists == False):
-                    fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.m4a")
-                    fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.m4a")
-                    if(fileExists == False):
-                        fileExists = os.path.exists(f"{soundsFilePath}{soundeffect}.mp3")
-                        fileExt = os.path.splitext(f"{soundsFilePath}{soundeffect}.mp3")
-    
-    
-            print(fileExt)
+            ext = getRealSound(soundsFilePath, soundeffect)
+
             print(f"trying to play {soundeffect}")
 
-            ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}{fileExt[1]}"), after=lambda e: print('done', e))
+            ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}.{ext}"), after=lambda e: print('done', e))
             useMana(username)
         else:
             await ctx.channel.send(f"@{username} you don't have any mana.")

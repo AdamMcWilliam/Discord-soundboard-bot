@@ -9,9 +9,7 @@ from discord.ext import commands
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
 
-client = discord.Client()
 bot = commands.Bot(command_prefix = "!")
 
 
@@ -111,34 +109,32 @@ def getSound(sound, user):
 async def on_voice_state_update(member, before, after):
     if member.display_name.lower() != 'chat_theif':
         if before.channel is None and after.channel is not None:
-            if after.channel.name == 'General':
-                #print(dir(member))
-                user = member.display_name.lower()
-    
-                #update mana
-                assignMana(3, user)
+           
+            #print(dir(member))
+            user = member.display_name.lower()
 
+            #update mana
+            assignMana(3, user)
+            themeSoundsFilePath = "C:/gits/twitch-soundboard/theme_songs/"
 
-                themeSoundsFilePath = "C:/gits/twitch-soundboard/theme_songs/"
-    
-                fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.wav")
-                fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.wav")
+            fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.wav")
+            fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.wav")
+            if(fileExists == False):
+                fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.opus")
+                fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.opus")
                 if(fileExists == False):
-                    fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.opus")
-                    fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.opus")
+                    fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.m4a")
+                    fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.m4a")
                     if(fileExists == False):
-                        fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.m4a")
-                        fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.m4a")
-                        if(fileExists == False):
-                            fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.mp3")
-                            fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.mp3")
-    
-                member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}{fileExt[1]}"), after=lambda e: print('done', e))   
+                        fileExists = os.path.exists(f"{themeSoundsFilePath}{user}.mp3")
+                        fileExt = os.path.splitext(f"{themeSoundsFilePath}{user}.mp3")
+
+            member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}{fileExt[1]}"), after=lambda e: print('done', e))   
             
 #bot joins the server
 @bot.command(name="join", description="join a voice channel", pass_context=True,)
 async def joinServer(ctx):
-    voicechannel = discord.utils.get(ctx.guild.channels, name='General')
+    voicechannel = ctx.author.voice.channel
     await voicechannel.connect()
 
 #plays a sound !play snorlax

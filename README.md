@@ -19,6 +19,12 @@ A bot that joins a discord and plays sounds when requested.
  
 # Additional Dependencies
 
+Add a .env file:
+
+# .env
+DISCORD_TOKEN=[discord_token]
+
+
 ffmpeg for windows: https://ffmpeg.zeranoe.com/builds/
 
 Discord.py: https://pypi.org/project/discord.py/

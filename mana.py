@@ -16,7 +16,7 @@ def restoreMana(sc):
         manaFile.close()
         print("mana restored")
 
-        s.enter(60, 1, restoreMana, (sc,))
+        s.enter(300, 1, restoreMana, (sc,))
 
         
 

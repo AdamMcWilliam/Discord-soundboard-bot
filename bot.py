@@ -2,38 +2,17 @@
 import os
 import random
 import urllib.request, json
-import sched, time
-
 
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
 
-
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
-#setup timer
-s = sched.scheduler(time.time, time.sleep)
-
 client = discord.Client()
 bot = commands.Bot(command_prefix = "!")
-
-def restoreMana(sc):
-    with open('json/mana.json', 'r+') as manaFile:
-        data = json.load(manaFile)
-
-        for value in data:
-            data[f"{value}"]['mana'] = 3
-            
-
-        manaFile.seek(0)
-        json.dump(data, manaFile, indent=2)
-        manaFile.close()
-        print("mana restored")
-
-        s.enter(60, 1, restoreMana, (sc,))
 
 
 #give user mana
@@ -245,9 +224,6 @@ async def permissions(ctx):
 
 
 #run
-s.enter(10, 1, restoreMana, (s,))
-
-#s.run()
 bot.run(TOKEN)
 
 

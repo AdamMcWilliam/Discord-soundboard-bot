@@ -21,7 +21,6 @@ A bot that joins a discord and plays sounds when requested.
 
 Add a .env file:
 
-# .env
 DISCORD_TOKEN=[discord_token]
 
 

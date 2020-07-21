@@ -133,10 +133,26 @@ def getSound(sound, user):
 #Is sound accepted by community
 def getSoundPopularity(sound):
 
-    with open('json/sfx_vote.json') as json_file:
+    with open('json/sfx_votes.json') as json_file:
         data = json.load(json_file)
-    
-    pass
+        data = data['sfx_votes']
+
+        for value in data:
+            try:
+                if(data[f"{value}"]['command'] == sound):
+                    supporters = data[f"{value}"]['supporters']
+                    detractors = data[f"{value}"]['detractors']
+            except KeyError:
+                continue
+                
+    #count and compare
+    supportersLength = len(supporters)
+    detractorsLength = len(detractors)
+
+    if supportersLength >= detractorsLength:
+        return True
+    else:
+        return False
 
 
 #if user joins voice chat, play their theme song
@@ -240,27 +256,26 @@ async def joinServer(ctx):
 #plays a sound !play snorlax
 @bot.command(name="play", description="play a sound", pass_context=True,)
 async def playSound(ctx):
-    print(ctx.message.content)
-
+    
     soundeffect = ctx.message.content.split('!play ')
     soundeffect = soundeffect[1]
-    
     username = ctx.author.display_name.lower()
 
     canPlay = getSound(soundeffect,username)
-
     hasMana = getMana(username)
+    isPopular = getSoundPopularity(soundeffect)
 
-    if(canPlay == True):
-        if(hasMana == True):
-
-            soundsFilePath = "C:/gits/twitch-soundboard/"
-            ext = getRealSound(soundsFilePath, soundeffect)
-
-            print(f"trying to play {soundeffect}")
-
-            ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}.{ext}"), after=lambda e: print('done', e))
-            useMana(username)
+    if canPlay:
+        if hasMana:
+            if isPopular:
+                
+                soundsFilePath = "C:/gits/twitch-soundboard/"
+                ext = getRealSound(soundsFilePath, soundeffect)
+                print(f"trying to play {soundeffect}")
+                ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}.{ext}"), after=lambda e: print('done', e))
+                useMana(username)
+            else:
+                await ctx.channel.send(f"@{username} The people have spoken and everyone hates this sound, im not playing it.")
         else:
             await ctx.channel.send(f"@{username} you don't have any mana.")
     else:
@@ -276,16 +291,12 @@ async def me(ctx):
 
     #get users username   
     username = ctx.author.display_name.lower()
-
     url = website + username + ".html"
-
-    print(url)
     await ctx.channel.send(url)
 
 @bot.command(name="perms", description="get owners of a sound", pass_context=True)
 async def permissions(ctx):
-    print(ctx.message.content)
-
+    
     username = ctx.author.display_name.lower()
 
     soundeffect = ctx.message.content.split('!perms ')

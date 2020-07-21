@@ -1,13 +1,16 @@
 import urllib.request 
 import json
 
-url = "https://mygeoangelfirespace.city/db/commands.json"
-response = urllib.request.urlopen(url)
-data = json.loads(response.read())
+jsonFiles = ['commands', 'sfx_votes']
 
-with open('json/commands.json', 'r+') as commandsFile:
-      commandsFile.seek(0)
-      json.dump(data, commandsFile, indent=2)
-      commandsFile.close()
-      print("commands updated")
+for file in jsonFiles:
 
+    url = f"https://mygeoangelfirespace.city/db/{file}.json"
+    response = urllib.request.urlopen(url)
+    data = json.loads(response.read())
+
+    with open(f'json/{file}.json', 'r+') as commandsFile:
+          commandsFile.seek(0)
+          json.dump(data, commandsFile, indent=2)
+          commandsFile.close()
+          print(f"{file} updated")

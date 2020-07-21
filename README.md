@@ -16,6 +16,10 @@ A bot that joins a discord and plays sounds when requested.
 
 !perms [soundeffect]| returns the owners of a soundeffect
 
+!pokemon            | Starts a pokemon guessing game
+
+!guess [pokemon name]| make a guess
+
  
 # Additional Dependencies
 

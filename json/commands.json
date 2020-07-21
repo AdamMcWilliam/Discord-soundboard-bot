@@ -83,7 +83,7 @@
         "yatko"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "12": {
       "name": "handbag",
@@ -159,7 +159,7 @@
         "cyb3rjunkie"
       ],
       "health": 3,
-      "cost": 218
+      "cost": 109
     },
     "21": {
       "name": "aerodactyl",
@@ -225,7 +225,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "28": {
       "name": "twita",
@@ -282,7 +282,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 15
+      "cost": 7
     },
     "34": {
       "name": "sad",
@@ -311,7 +311,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "37": {
       "name": "cheers",
@@ -361,7 +361,7 @@
         "andrelamus"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "42": {
       "name": "apologyaccepted",
@@ -471,7 +471,8 @@
       "permitted_users": [
         "bopojoe_",
         "joker_dan",
-        "biged_twitch"
+        "biged_twitch",
+        "zanuss"
       ],
       "health": 3,
       "cost": 1
@@ -503,7 +504,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "58": {
       "name": "muk",
@@ -532,7 +533,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "61": {
       "name": "bankruptcy",
@@ -556,7 +557,7 @@
         "aquafunkalisticbootywhap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "64": {
       "name": "ponyta",
@@ -631,13 +632,14 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "73": {
       "name": "ouch",
       "user": "beginbot",
       "permitted_users": [
-        "sillybaboy"
+        "sillybaboy",
+        "mremmalex"
       ],
       "health": 3,
       "cost": 1
@@ -655,7 +657,9 @@
     "75": {
       "name": "backin82",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "vinchbr"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -734,7 +738,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "84": {
       "name": "getlow",
@@ -755,7 +759,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "86": {
       "name": "magnemite",
@@ -840,7 +844,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "95": {
       "name": "violated",
@@ -878,10 +882,10 @@
       "user": "beginbot",
       "permitted_users": [
         "zawkzawk",
-        "cachesking"
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "100": {
       "name": "neutral",
@@ -979,10 +983,11 @@
       "permitted_users": [
         "whatsinmyopsec",
         "maxthakurcodes",
-        "cykablondesbot"
+        "cykablondesbot",
+        "data_goose"
       ],
       "health": 3,
-      "cost": 1
+      "cost": 3
     },
     "111": {
       "name": "db2",
@@ -1052,7 +1057,7 @@
         "unlucksmcgee"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "119": {
       "name": "fbs1",
@@ -1087,7 +1092,7 @@
         "pedrovalentimmm"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "123": {
       "name": "cantbelieveit",
@@ -1144,10 +1149,11 @@
       "permitted_users": [
         "jadyu95",
         "mremmalex",
-        "mccannch"
+        "mccannch",
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "129": {
       "name": "nopickles",
@@ -1213,7 +1219,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "136": {
       "name": "betterthan2",
@@ -1264,7 +1270,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "141": {
       "name": "zipit",
@@ -1320,7 +1326,7 @@
         "makesense6"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "147": {
       "name": "pinkpanther",
@@ -1424,7 +1430,7 @@
         "haidook"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "158": {
       "name": "youloser",
@@ -1532,7 +1538,8 @@
       "user": "beginbot",
       "permitted_users": [
         "trgwii",
-        "erikdotdev"
+        "erikdotdev",
+        "usernamesarelame"
       ],
       "health": 3,
       "cost": 1
@@ -1607,7 +1614,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "178": {
       "name": "rill",
@@ -1655,7 +1662,7 @@
         "cykablondesbot"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "183": {
       "name": "grandmabike",
@@ -1678,7 +1685,8 @@
       "name": "evil",
       "user": "beginbot",
       "permitted_users": [
-        "shineslove"
+        "shineslove",
+        "zanuss"
       ],
       "health": 3,
       "cost": 1
@@ -1730,7 +1738,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "192": {
       "name": "bad",
@@ -1818,7 +1826,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "201": {
       "name": "getdownonit",
@@ -1837,7 +1845,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "203": {
       "name": "snap",
@@ -1851,7 +1859,8 @@
       "user": "beginbot",
       "permitted_users": [
         "zanussbot",
-        "phhv"
+        "phhv",
+        "justcinema1"
       ],
       "health": 3,
       "cost": 1
@@ -1870,7 +1879,9 @@
     "206": {
       "name": "every1sgonnadie",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "zanuss"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -1878,7 +1889,8 @@
       "name": "bleed",
       "user": "beginbot",
       "permitted_users": [
-        "radnire"
+        "radnire",
+        "zanussbot"
       ],
       "health": 3,
       "cost": 1
@@ -1887,7 +1899,8 @@
       "name": "bilbo",
       "user": "beginbot",
       "permitted_users": [
-        "janpoonthong"
+        "janpoonthong",
+        "whatsinmyopsec"
       ],
       "health": 3,
       "cost": 1
@@ -1941,7 +1954,8 @@
       "name": "resill",
       "user": "beginbot",
       "permitted_users": [
-        "awyeahmann"
+        "awyeahmann",
+        "cykablondesbot"
       ],
       "health": 3,
       "cost": 1
@@ -2010,7 +2024,9 @@
     "222": {
       "name": "linearswitches",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "data_goose"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -2079,7 +2095,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "230": {
       "name": "maltliquor",
@@ -2131,7 +2147,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "235": {
       "name": "questions",
@@ -2152,7 +2168,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 4
+      "cost": 1
     },
     "237": {
       "name": "cyberobey",
@@ -2178,7 +2194,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "240": {
       "name": "tuesday",
@@ -2218,7 +2234,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "244": {
       "name": "justfine",
@@ -2281,7 +2297,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "250": {
       "name": "benmurphy",
@@ -2308,7 +2324,7 @@
       "user": "beginbot",
       "permitted_users": [
         "aquafunkbot",
-        "opsecbot"
+        "whatsinmyopsec"
       ],
       "health": 3,
       "cost": 1
@@ -2374,10 +2390,11 @@
       "user": "beginbot",
       "permitted_users": [
         "whatsinmyopsec",
-        "nomorequity"
+        "nomorequity",
+        "detlion1643"
       ],
       "health": 3,
-      "cost": 1
+      "cost": 2
     },
     "261": {
       "name": "dean1",
@@ -2399,7 +2416,9 @@
     "263": {
       "name": "pokewin",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "whiskyfinger"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -2419,7 +2438,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "266": {
       "name": "itsthepolice",
@@ -2448,8 +2467,8 @@
       "name": "gyarados",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
-        "whatsinmyopsec"
+        "whatsinmyopsec",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -2462,7 +2481,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "271": {
       "name": "5dollars",
@@ -2473,7 +2492,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "272": {
       "name": "prettythings",
@@ -2544,7 +2563,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "283": {
       "name": "onesie",
@@ -2595,7 +2614,7 @@
         "melkeydev"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "289": {
       "name": "crossfit",
@@ -2642,8 +2661,8 @@
         "cachesking",
         "mccannch"
       ],
-      "health": 3,
-      "cost": 2
+      "health": 4,
+      "cost": 1
     },
     "294": {
       "name": "fourleafclover",
@@ -2653,7 +2672,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "296": {
       "name": "pikachu",
@@ -2673,7 +2692,9 @@
     "297": {
       "name": "kidsfalling",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "trgwii"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -2685,7 +2706,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "299": {
       "name": "chocolaterain",
@@ -2722,7 +2743,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "303": {
       "name": "zubat",
@@ -2767,7 +2788,8 @@
       "name": "electrabuzz",
       "user": "beginbot",
       "permitted_users": [
-        "detlion1643"
+        "detlion1643",
+        "usernamesarelame"
       ],
       "health": 3,
       "cost": 1
@@ -2859,16 +2881,16 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "317": {
       "name": "clefable",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
         "teej_dv",
         "whatsinmyopsec",
-        "withextraboba"
+        "withextraboba",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -2911,7 +2933,7 @@
         "melkeydev"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "328": {
       "name": "steampunk3",
@@ -2920,7 +2942,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "329": {
       "name": "dancer",
@@ -2958,7 +2980,7 @@
         "nomorequity"
       ],
       "health": 3,
-      "cost": 39
+      "cost": 18
     },
     "332": {
       "name": "cuberap",
@@ -2968,7 +2990,7 @@
         "awyeahmann"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "333": {
       "name": "throwup",
@@ -3146,7 +3168,8 @@
       "name": "thatsallfolks",
       "user": "beginbot",
       "permitted_users": [
-        "ladka8"
+        "ladka8",
+        "zanussbot"
       ],
       "health": 3,
       "cost": 1
@@ -3168,7 +3191,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "356": {
       "name": "twofingers",
@@ -3191,7 +3214,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "359": {
       "name": "notthedroids",
@@ -3209,7 +3232,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "361": {
       "name": "wehungry",
@@ -3219,7 +3242,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "362": {
       "name": "stunt",
@@ -3227,7 +3250,8 @@
       "permitted_users": [
         "legotux",
         "cachesking",
-        "melkeydev"
+        "melkeydev",
+        "esheep"
       ],
       "health": 3,
       "cost": 1
@@ -3284,7 +3308,7 @@
         "pedrovalentimmm"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "369": {
       "name": "prop",
@@ -3361,7 +3385,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "381": {
       "name": "alons",
@@ -3406,12 +3430,14 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "385": {
       "name": "animalsounds",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "detlion1643"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -3471,7 +3497,8 @@
       "user": "beginbot",
       "permitted_users": [
         "prutz1311",
-        "teej_dv"
+        "teej_dv",
+        "cykablondesbot"
       ],
       "health": 3,
       "cost": 1
@@ -3511,7 +3538,7 @@
         "bilgeyamtar"
       ],
       "health": 3,
-      "cost": 8
+      "cost": 4
     },
     "398": {
       "name": "sitdown",
@@ -3561,13 +3588,14 @@
       "name": "dragonair",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
         "ravonus",
         "dwarvencoder",
-        "eitanfuturo"
+        "eitanfuturo",
+        "adrnlnjnky",
+        "trgwii"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "406": {
       "name": "pewds",
@@ -3644,7 +3672,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "415": {
       "name": "illbejustfine",
@@ -3667,9 +3695,12 @@
     "417": {
       "name": "dontatme",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "zamuro89",
+        "detlion1643"
+      ],
       "health": 3,
-      "cost": 1
+      "cost": 2
     },
     "418": {
       "name": "landing",
@@ -3679,7 +3710,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "419": {
       "name": "itsme",
@@ -3733,7 +3764,9 @@
     "424": {
       "name": "wassup",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "itschoudhry"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -3842,7 +3875,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "437": {
       "name": "oldpeople",
@@ -3860,7 +3893,8 @@
       "name": "manmade",
       "user": "beginbot",
       "permitted_users": [
-        "sness23"
+        "sness23",
+        "druidmuffin"
       ],
       "health": 3,
       "cost": 1
@@ -3921,7 +3955,9 @@
     "447": {
       "name": "only_time",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "detlion1643"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -3960,7 +3996,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "454": {
       "name": "giveme",
@@ -3981,7 +4017,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "456": {
       "name": "roses",
@@ -3990,7 +4026,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "457": {
       "name": "dontmakefun",
@@ -4012,7 +4048,8 @@
       "name": "guesswhat",
       "user": "beginbot",
       "permitted_users": [
-        "zolor"
+        "zolor",
+        "dominikh"
       ],
       "health": 3,
       "cost": 1
@@ -4049,7 +4086,7 @@
         "rune_trimmed"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "464": {
       "name": "showit",
@@ -4070,7 +4107,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "467": {
       "name": "billnever",
@@ -4223,7 +4260,7 @@
       "permitted_users": [
         "pikaprogram",
         "stupac62",
-        "ogjake"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -4253,7 +4290,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "497": {
       "name": "binaryexploitation",
@@ -4280,7 +4317,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "500": {
       "name": "charmeleon",
@@ -4304,7 +4341,7 @@
       "permitted_users": [
         "trgwii",
         "unlucksmcgee",
-        "opsecbot"
+        "whatsinmyopsec"
       ],
       "health": 3,
       "cost": 1
@@ -4368,7 +4405,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "510": {
       "name": "africa2",
@@ -4405,7 +4442,7 @@
         "nomorequity"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "514": {
       "name": "wilhelm",
@@ -4498,7 +4535,9 @@
     "528": {
       "name": "samurai",
       "user": "beginbot",
-      "permitted_users": [],
+      "permitted_users": [
+        "lucasfernsilva"
+      ],
       "health": 3,
       "cost": 1
     },
@@ -4530,7 +4569,8 @@
       "name": "8bitmacarena2",
       "user": "beginbot",
       "permitted_users": [
-        "melkeydev"
+        "melkeydev",
+        "hazeanderson"
       ],
       "health": 3,
       "cost": 1
@@ -4556,7 +4596,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "540": {
       "name": "flacid",
@@ -4623,7 +4663,7 @@
         "dataismydrug"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "549": {
       "name": "asmrdroppedie",
@@ -4632,7 +4672,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "550": {
       "name": "computersareforlosers",
@@ -4643,13 +4683,14 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "551": {
       "name": "siii",
       "user": "beginbot",
       "permitted_users": [
-        "whatsinmyopsec"
+        "whatsinmyopsec",
+        "nomorequity"
       ],
       "health": 3,
       "cost": 1
@@ -4663,7 +4704,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "553": {
       "name": "trancedrop",
@@ -4710,7 +4751,8 @@
       "user": "beginbot",
       "permitted_users": [
         "phasen",
-        "nomorequity"
+        "nomorequity",
+        "zanuss"
       ],
       "health": 3,
       "cost": 1
@@ -4764,7 +4806,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "564": {
       "name": "aksyou",
@@ -4819,7 +4861,8 @@
       "name": "asfarasiknow",
       "user": "beginbot",
       "permitted_users": [
-        "biged_twitch"
+        "biged_twitch",
+        "eitanfuturo"
       ],
       "health": 3,
       "cost": 1
@@ -4843,7 +4886,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "572": {
       "name": "watermelon",
@@ -4895,7 +4938,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "577": {
       "name": "ahhh",
@@ -4926,7 +4969,7 @@
         "coil_twitch_bot"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "580": {
       "name": "dumas",
@@ -4982,7 +5025,8 @@
       "name": "liketodream",
       "user": "beginbot",
       "permitted_users": [
-        "grahamweldon"
+        "grahamweldon",
+        "hissroth"
       ],
       "health": 3,
       "cost": 1
@@ -5125,7 +5169,7 @@
         "airtonzanon"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "599": {
       "name": "peanut",
@@ -5186,7 +5230,7 @@
         "bopojoe_"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "605": {
       "name": "inquisition",
@@ -5197,7 +5241,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "606": {
       "name": "sand3",
@@ -5253,7 +5297,7 @@
       "user": "beginbot",
       "permitted_users": [
         "isaiahvander",
-        "nomorequity"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -5275,7 +5319,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "614": {
       "name": "shaft",
@@ -5306,7 +5350,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "617": {
       "name": "smoothcriminal",
@@ -5324,7 +5368,8 @@
         "ikiwixz",
         "zanuss",
         "ladka8",
-        "gottzstreams"
+        "adrnlnjnky",
+        "shineslove"
       ],
       "health": 3,
       "cost": 1
@@ -5461,7 +5506,8 @@
       "name": "thejetsons",
       "user": "beginbot",
       "permitted_users": [
-        "grahamweldon"
+        "grahamweldon",
+        "boki_dev"
       ],
       "health": 3,
       "cost": 1
@@ -5475,7 +5521,7 @@
         "joker_dan"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "634": {
       "name": "stragerplay",
@@ -5525,7 +5571,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "639": {
       "name": "things",
@@ -5556,14 +5602,14 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "649": {
       "name": "rhyme",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
-        "shineslove"
+        "shineslove",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -5636,7 +5682,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "661": {
       "name": "scopecreep",
@@ -5732,7 +5778,7 @@
         "futubot"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "673": {
       "name": "tacobell",
@@ -5771,13 +5817,13 @@
       "name": "arbysboys",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
         "aciduk_test",
         "aquafunkbot",
-        "zanuss"
+        "zanuss",
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "677": {
       "name": "wesleymcd",
@@ -5925,7 +5971,8 @@
       "permitted_users": [
         "doublenibble",
         "prutz1311",
-        "xanderle"
+        "xanderle",
+        "nineteenletterslong"
       ],
       "health": 3,
       "cost": 1
@@ -5962,7 +6009,7 @@
         "nuke4fun"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "698": {
       "name": "clap",
@@ -5985,7 +6032,7 @@
         "selddil4"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "700": {
       "name": "deathtohumans",
@@ -6084,7 +6131,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "721": {
       "name": "allstarjig",
@@ -6114,7 +6161,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "724": {
       "name": "furloughed",
@@ -6137,7 +6184,7 @@
         "erikdotdev"
       ],
       "health": 3,
-      "cost": 24
+      "cost": 12
     },
     "726": {
       "name": "master",
@@ -6152,7 +6199,8 @@
       "permitted_users": [
         "teej_dv",
         "lackofsupervision",
-        "shineslove"
+        "shineslove",
+        "tommy_twotoes"
       ],
       "health": 3,
       "cost": 1
@@ -6177,7 +6225,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "730": {
       "name": "tpirhorn",
@@ -6216,7 +6264,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "734": {
       "name": "venomoth",
@@ -6297,7 +6345,7 @@
         "nzack_"
       ],
       "health": 3,
-      "cost": 6
+      "cost": 3
     },
     "744": {
       "name": "livingthedream",
@@ -6347,7 +6395,7 @@
         "prutz1311"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "751": {
       "name": "atwu",
@@ -6382,7 +6430,7 @@
         "loner_lena"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "754": {
       "name": "shoot",
@@ -6403,10 +6451,11 @@
         "lackofsupervision",
         "therewillbememes",
         "shineslove",
-        "remi_xrei"
+        "remi_xrei",
+        "lasamat"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "758": {
       "name": "stealy",
@@ -6417,7 +6466,7 @@
         "rockerboo"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "760": {
       "name": "whatelse",
@@ -6448,10 +6497,12 @@
         "bopojoe_",
         "yatko",
         "artmattdank",
-        "teej_dv"
+        "teej_dv",
+        "whatsinmyopsec",
+        "gottzstreams"
       ],
       "health": 3,
-      "cost": 8,
+      "cost": 12,
       "snorlax": 100
     },
     "763": {
@@ -6477,7 +6528,7 @@
       "user": "beginbot",
       "permitted_users": [
         "joeyesko",
-        "lucasfernsilva"
+        "hazeanderson"
       ],
       "health": 3,
       "cost": 1
@@ -6511,7 +6562,7 @@
         "lucasfernsilva"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "770": {
       "name": "bullyme",
@@ -6527,7 +6578,8 @@
       "name": "teaparty",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong"
+        "nineteenletterslong",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -6536,7 +6588,8 @@
       "name": "croissant",
       "user": "beginbot",
       "permitted_users": [
-        "endlessmike133"
+        "endlessmike133",
+        "copperbeardy"
       ],
       "health": 3,
       "cost": 1
@@ -6599,7 +6652,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "781": {
       "name": "siliconintro",
@@ -6610,7 +6663,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "784": {
       "name": "sheeet",
@@ -6642,7 +6695,7 @@
         "meste5ranti"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "787": {
       "name": "massacre",
@@ -6698,7 +6751,8 @@
       "user": "beginbot",
       "permitted_users": [
         "mahtis",
-        "cachesking"
+        "cachesking",
+        "whiskyfinger"
       ],
       "health": 3,
       "cost": 1
@@ -6803,7 +6857,7 @@
         "pedrovalentimmm"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "806": {
       "name": "rimshot",
@@ -6860,9 +6914,9 @@
       "name": "sand2",
       "user": "beginbot",
       "permitted_users": [
-        "whatsinmyopsec",
         "antarcticaust",
-        "bopojoe_"
+        "bopojoe_",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -6994,13 +7048,13 @@
         "whatsinmyopsec",
         "teej_dv",
         "shineslove",
-        "lucasfernsilva",
         "mccannch",
         "tommy_twotoes",
-        "creative0engineer"
+        "creative0engineer",
+        "hazeanderson"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "829": {
       "name": "tetris",
@@ -7012,7 +7066,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "830": {
       "name": "will",
@@ -7045,7 +7099,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "833": {
       "name": "thecloud",
@@ -7062,7 +7116,8 @@
       "user": "beginbot",
       "permitted_users": [
         "kinerik",
-        "shineslove"
+        "shineslove",
+        "usernamesarelame"
       ],
       "health": 3,
       "cost": 1
@@ -7076,7 +7131,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "836": {
       "name": "slap",
@@ -7086,7 +7141,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "837": {
       "name": "caulk",
@@ -7098,7 +7153,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "838": {
       "name": "sug",
@@ -7124,7 +7179,8 @@
       "name": "falling",
       "user": "beginbot",
       "permitted_users": [
-        "shineslove"
+        "shineslove",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -7177,7 +7233,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 23
+      "cost": 11
     },
     "848": {
       "name": "friday",
@@ -7199,7 +7255,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "851": {
       "name": "musicmakers",
@@ -7219,14 +7275,15 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "853": {
       "name": "scatintro",
       "user": "beginbot",
       "permitted_users": [
         "nomorequity",
-        "v0idrose"
+        "v0idrose",
+        "ktnayr12345"
       ],
       "health": 3,
       "cost": 1
@@ -7247,7 +7304,7 @@
         "bilgeyamtar"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "855": {
       "name": "thieves",
@@ -7297,7 +7354,7 @@
         "melkeydev"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "861": {
       "name": "youalwayssay",
@@ -7443,7 +7500,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "879": {
       "name": "goodnews",
@@ -7454,7 +7511,7 @@
         "codenectar"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "881": {
       "name": "change",
@@ -7531,7 +7588,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "892": {
       "name": "risktaker",
@@ -7889,10 +7946,12 @@
         "whatsinmyopsec",
         "detlion1643",
         "realvindic",
-        "zanuss"
+        "adrnlnjnky",
+        "simpathey",
+        "isaiahvander"
       ],
       "health": 3,
-      "cost": 4
+      "cost": 18
     },
     "931": {
       "name": "omg",
@@ -7910,7 +7969,8 @@
         "biged_twitch",
         "prutz1311",
         "travx",
-        "shineslove"
+        "shineslove",
+        "detlion1643"
       ],
       "health": 3,
       "cost": 2
@@ -7954,7 +8014,7 @@
         "benf9"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "937": {
       "name": "whoisthat",
@@ -7964,7 +8024,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "938": {
       "name": "believe",
@@ -7974,7 +8034,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "939": {
       "name": "archluke",
@@ -8033,7 +8093,7 @@
         "spielprogrammierer"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "946": {
       "name": "pedantic",
@@ -8065,7 +8125,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "950": {
       "name": "bornlonesome",
@@ -8077,7 +8137,7 @@
         "adityachandak287"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "951": {
       "name": "imatimelord",
@@ -8098,7 +8158,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "953": {
       "name": "nonono",
@@ -8175,7 +8235,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "961": {
       "name": "brainvoices",
@@ -8285,7 +8345,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "973": {
       "name": "ayaya2",
@@ -8317,7 +8377,7 @@
         "so_luigi"
       ],
       "health": 3,
-      "cost": 8
+      "cost": 4
     },
     "977": {
       "name": "drop",
@@ -8348,7 +8408,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "980": {
       "name": "im_awesome",
@@ -8358,7 +8418,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "981": {
       "name": "deadprez",
@@ -8378,16 +8438,16 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "983": {
       "name": "majesty",
       "user": "beginbot",
       "permitted_users": [
         "airtonzanon",
-        "nineteenletterslong",
         "scaleofjustice",
-        "kinerik"
+        "kinerik",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -8417,7 +8477,8 @@
       "name": "handshakes",
       "user": "beginbot",
       "permitted_users": [
-        "airtonzanon"
+        "airtonzanon",
+        "zanussbot"
       ],
       "health": 3,
       "cost": 1
@@ -8443,7 +8504,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "990": {
       "name": "processingworld",
@@ -8530,7 +8591,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "999": {
       "name": "stfu",
@@ -8607,7 +8668,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1007": {
       "name": "dadohmygod",
@@ -8642,7 +8703,8 @@
       "permitted_users": [
         "adrnlnjnky",
         "gaodiablo777",
-        "melkeydev"
+        "melkeydev",
+        "bpitt1237"
       ],
       "health": 3,
       "cost": 1
@@ -8662,7 +8724,8 @@
       "user": "beginbot",
       "permitted_users": [
         "detlion1643",
-        "truemorpheuz"
+        "truemorpheuz",
+        "anakimluke"
       ],
       "health": 3,
       "cost": 1
@@ -8731,10 +8794,12 @@
       "permitted_users": [
         "suuupersonic",
         "whatsinmyopsec",
-        "spielprogrammierer"
+        "spielprogrammierer",
+        "isaiahvander",
+        "tommy_twotoes"
       ],
       "health": 3,
-      "cost": 5
+      "cost": 18
     },
     "1020": {
       "name": "8bitparadise",
@@ -8759,7 +8824,7 @@
       "user": "beginbot",
       "permitted_users": [
         "thecrappycoder",
-        "nineteenletterslong"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -8769,7 +8834,8 @@
       "user": "beginbot",
       "permitted_users": [
         "thecrappycoder",
-        "plourdy"
+        "plourdy",
+        "usernamesarelame"
       ],
       "health": 3,
       "cost": 1
@@ -8787,8 +8853,8 @@
       "name": "tay",
       "user": "beginbot",
       "permitted_users": [
-        "zolor",
-        "crispy_baguette"
+        "crispy_baguette",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -8844,7 +8910,7 @@
         "takkeo"
       ],
       "health": 3,
-      "cost": 23
+      "cost": 11
     },
     "1032": {
       "name": "codepeeps",
@@ -9017,7 +9083,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1069": {
       "name": "chain",
@@ -9043,7 +9109,7 @@
       "user": "beginbot",
       "permitted_users": [
         "harrisontaylor43",
-        "adrnlnjnky"
+        "zanuss"
       ],
       "health": 3,
       "cost": 1
@@ -9115,7 +9181,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1095": {
       "name": "switch",
@@ -9126,7 +9192,7 @@
         "pedrovalentimmm"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1096": {
       "name": "verydifficult",
@@ -9224,7 +9290,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1119": {
       "name": "foghorn",
@@ -9246,7 +9312,7 @@
         "erikdotdev"
       ],
       "health": 3,
-      "cost": 5
+      "cost": 2
     },
     "1121": {
       "name": "ahh",
@@ -9257,7 +9323,7 @@
         "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 20
+      "cost": 10
     },
     "1122": {
       "name": "hugetrees",
@@ -9299,7 +9365,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1129": {
       "name": "sendhelp",
@@ -9337,7 +9403,7 @@
       "permitted_users": [
         "zanussbot",
         "aciduk_test",
-        "ogjake"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -9413,7 +9479,8 @@
       "name": "renai",
       "user": "beginbot",
       "permitted_users": [
-        "diadochokinetic"
+        "diadochokinetic",
+        "wantyapps"
       ],
       "health": 3,
       "cost": 1
@@ -9454,10 +9521,11 @@
         "travx",
         "aquafunkalisticbootywhap",
         "zanuss",
-        "erikdotdev"
+        "erikdotdev",
+        "gdhameeja"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1149": {
       "name": "mykungfu",
@@ -9493,7 +9561,8 @@
       "name": "hemeantbusiness",
       "user": "beginbot",
       "permitted_users": [
-        "whatsinmyopsec"
+        "whatsinmyopsec",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -9507,7 +9576,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1155": {
       "name": "hors",
@@ -9531,8 +9600,8 @@
       "name": "smalls",
       "user": "beginbot",
       "permitted_users": [
-        "shineslove",
-        "whatsinmyopsec"
+        "whatsinmyopsec",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -9551,10 +9620,11 @@
       "user": "beginbot",
       "permitted_users": [
         "ortunado",
-        "detlion1643"
+        "detlion1643",
+        "dataismydrug"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1164": {
       "name": "stragerddg",
@@ -9603,7 +9673,7 @@
         "nomorequity"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1169": {
       "name": "whatisthis",
@@ -9617,7 +9687,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 4
+      "cost": 2
     },
     "1170": {
       "name": "apaches",
@@ -9630,7 +9700,7 @@
         "bopojoe_"
       ],
       "health": 3,
-      "cost": 27
+      "cost": 13
     },
     "1173": {
       "name": "8bitymca",
@@ -9640,7 +9710,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1174": {
       "name": "itsalive",
@@ -9709,10 +9779,11 @@
       "permitted_users": [
         "prutz1311",
         "n0husty",
-        "zanuss"
+        "zanuss",
+        "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1181": {
       "name": "excellent",
@@ -9839,11 +9910,12 @@
         "whatsinmyopsec",
         "maleix",
         "awyeahmann",
-        "nineteenletterslong",
-        "seafilmz"
+        "seafilmz",
+        "adrnlnjnky",
+        "ogjake"
       ],
       "health": 3,
-      "cost": 6
+      "cost": 9
     },
     "1194": {
       "name": "koala",
@@ -9874,14 +9946,15 @@
         "goodlife33"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1197": {
       "name": "everybody",
       "user": "beginbot",
       "permitted_users": [
         "fakepr0phet",
-        "remi_xrei"
+        "remi_xrei",
+        "shineslove"
       ],
       "health": 3,
       "cost": 1
@@ -9894,7 +9967,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1199": {
       "name": "windows",
@@ -9907,7 +9980,7 @@
         "sklx_ekko"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1200": {
       "name": "gameofchess",
@@ -9928,7 +10001,7 @@
         "biged_twitch"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1202": {
       "name": "biggulps",
@@ -9975,7 +10048,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1207": {
       "name": "dwm",
@@ -9995,7 +10068,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1209": {
       "name": "oppsy",
@@ -10015,7 +10088,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1211": {
       "name": "beer",
@@ -10075,7 +10148,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1217": {
       "name": "anotherone",
@@ -10128,7 +10201,8 @@
       "permitted_users": [
         "ciferhd",
         "detlion1643",
-        "cachesking"
+        "cachesking",
+        "mccannch"
       ],
       "health": 3,
       "cost": 1
@@ -10141,7 +10215,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1228": {
       "name": "australia",
@@ -10178,7 +10252,8 @@
       "user": "beginbot",
       "permitted_users": [
         "nhyxz247",
-        "haidook"
+        "haidook",
+        "laaman"
       ],
       "health": 3,
       "cost": 1
@@ -10267,7 +10342,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1244": {
       "name": "56k",
@@ -10300,10 +10375,11 @@
       "name": "killerwhale",
       "user": "beginbot",
       "permitted_users": [
-        "aciduk_test"
+        "aciduk_test",
+        "detlion1643"
       ],
       "health": 3,
-      "cost": 1
+      "cost": 2
     },
     "1249": {
       "name": "crowdboo",
@@ -10332,7 +10408,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1252": {
       "name": "stayclassy",
@@ -10351,7 +10427,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1254": {
       "name": "idk",
@@ -10376,7 +10452,8 @@
       "name": "exeggcute",
       "user": "beginbot",
       "permitted_users": [
-        "maleix"
+        "maleix",
+        "blortbot"
       ],
       "health": 3,
       "cost": 1
@@ -10458,7 +10535,7 @@
         "spielprogrammierer"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1265": {
       "name": "mariodead",
@@ -10553,7 +10630,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1275": {
       "name": "doom",
@@ -10591,71 +10668,6 @@
         "zackariep"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1279": {
-      "name": "artmattdank",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1280": {
-      "name": "punchypenguin",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1281": {
-      "name": "mrsmoofy",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1282": {
-      "name": "stapotv",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1283": {
-      "name": "jacobsm1",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1284": {
-      "name": "lucasfernsilva",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
-    },
-    "1285": {
-      "name": "pikaprogram",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1286": {
-      "name": "cachesking",
-      "user": "beginbot",
-      "permitted_users": [
-        "cachesking"
-      ],
-      "health": 8,
-      "cost": 1
-    },
-    "1287": {
-      "name": "aquafunkalisticbootywhap",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
       "cost": 1
     },
     "1288": {
@@ -10698,48 +10710,13 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1292": {
       "name": "croc",
       "user": "beginbot",
       "permitted_users": [],
       "health": 3,
-      "cost": 1
-    },
-    "1293": {
-      "name": "shineslove",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
-    },
-    "1294": {
-      "name": "detlion1643",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1295": {
-      "name": "bopojoe_",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
-    "1296": {
-      "name": "aquafunkbot",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1297": {
-      "name": "cykablondesbot",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
       "cost": 1
     },
     "1298": {
@@ -10750,16 +10727,6 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1299": {
-      "name": "nomorequity",
-      "user": "beginbot",
-      "permitted_users": [
-        "unlucksmcgee",
-        "nomorequity"
-      ],
-      "health": 8,
       "cost": 1
     },
     "1300": {
@@ -10779,17 +10746,13 @@
         "detlion1643",
         "lucasfernsilva",
         "zanuss",
-        "whatsinmyopsec"
+        "whatsinmyopsec",
+        "kolmok0dz",
+        "cykablondesbot",
+        "trgwii"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1302": {
-      "name": "airtonzanon",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
+      "cost": 27
     },
     "1303": {
       "name": "8bitblue",
@@ -10809,7 +10772,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1305": {
       "name": "8bitabout",
@@ -10822,23 +10785,6 @@
       "health": 3,
       "cost": 1
     },
-    "1306": {
-      "name": "isaiahvander",
-      "user": "beginbot",
-      "permitted_users": [
-        "isaiahvander",
-        "cachesking"
-      ],
-      "health": 7,
-      "cost": 1
-    },
-    "1307": {
-      "name": "mdrake0",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
-      "cost": 1
-    },
     "1308": {
       "name": "6flags",
       "user": "beginbot",
@@ -10849,29 +10795,6 @@
       "health": 3,
       "cost": 1
     },
-    "1309": {
-      "name": "qwertimer",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1310": {
-      "name": "zackariep",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
-      "cost": 1
-    },
-    "1311": {
-      "name": "spacex_jedi",
-      "user": "beginbot",
-      "permitted_users": [
-        "spacex_jedi"
-      ],
-      "health": 4,
-      "cost": 1
-    },
     "1312": {
       "name": "8bitonemoretime",
       "user": "beginbot",
@@ -10879,13 +10802,6 @@
         "stupac62"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1313": {
-      "name": "adrnlnjnky",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
       "cost": 1
     },
     "1314": {
@@ -10908,27 +10824,6 @@
       "health": 3,
       "cost": 1
     },
-    "1316": {
-      "name": "kendaryth",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1317": {
-      "name": "eitanfuturo",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
-    },
-    "1318": {
-      "name": "aynstayn",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
     "1319": {
       "name": "flatearth",
       "user": "beginbot",
@@ -10948,16 +10843,6 @@
       "health": 3,
       "cost": 1
     },
-    "1321": {
-      "name": "focadellemarianne",
-      "user": "beginbot",
-      "permitted_users": [
-        "focadellemarianne",
-        "zanuss"
-      ],
-      "health": 7,
-      "cost": 1
-    },
     "1322": {
       "name": "redmoldova",
       "user": "beginbot",
@@ -10967,7 +10852,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1323": {
       "name": "lul",
@@ -10985,27 +10870,6 @@
         "spartangtr"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1325": {
-      "name": "phaqui",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1326": {
-      "name": "kareemtel",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1327": {
-      "name": "rasmustof",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
       "cost": 1
     },
     "1328": {
@@ -11036,13 +10900,6 @@
       "health": 3,
       "cost": 1
     },
-    "1331": {
-      "name": "oxygen0211",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1332": {
       "name": "whothefuck",
       "user": "beginbot",
@@ -11050,27 +10907,6 @@
         "purplepinapples"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1333": {
-      "name": "constrainedcoding",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1334": {
-      "name": "janpoonthong",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1335": {
-      "name": "futubot",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
       "cost": 1
     },
     "1336": {
@@ -11100,25 +10936,11 @@
       "health": 3,
       "cost": 1
     },
-    "1339": {
-      "name": "haidook",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
     "1340": {
       "name": "imthedoctor",
       "user": "beginbot",
       "permitted_users": [],
       "health": 3,
-      "cost": 1
-    },
-    "1341": {
-      "name": "legotux",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
       "cost": 1
     },
     "1342": {
@@ -11148,13 +10970,6 @@
       "health": 3,
       "cost": 1
     },
-    "1345": {
-      "name": "rockerboo",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
-    },
     "1346": {
       "name": "correct",
       "user": "beginbot",
@@ -11165,13 +10980,6 @@
       "health": 3,
       "cost": 1
     },
-    "1347": {
-      "name": "zanuss",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
-    },
     "1348": {
       "name": "9to5",
       "user": "beginbot",
@@ -11180,15 +10988,6 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1349": {
-      "name": "spielprogrammierer",
-      "user": "beginbot",
-      "permitted_users": [
-        "spielprogrammierer"
-      ],
-      "health": 8,
       "cost": 1
     },
     "1350": {
@@ -11216,13 +11015,6 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1353": {
-      "name": "cyb3rjunkie",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1354": {
@@ -11232,13 +11024,6 @@
         "ananonymouscheerer",
         "whatsinmyopsec"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1355": {
-      "name": "kiekaemodaiwieco",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -11289,7 +11074,7 @@
         "mondaynightfreehotdogs"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1361": {
       "name": "hacking",
@@ -11338,13 +11123,6 @@
       "health": 3,
       "cost": 1
     },
-    "1366": {
-      "name": "justcinema1",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1367": {
       "name": "myths",
       "user": "beginbot",
@@ -11353,30 +11131,6 @@
         "phhv"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1368": {
-      "name": "gaddam",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1369": {
-      "name": "whatsinmyopsec",
-      "user": "beginbot",
-      "permitted_users": [
-        "shineslove",
-        "whatsinmyopsec"
-      ],
-      "health": 8,
-      "cost": 1
-    },
-    "1370": {
-      "name": "baldclap",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
       "cost": 1
     },
     "1371": {
@@ -11444,18 +11198,6 @@
       "health": 3,
       "cost": 1
     },
-    "1378": {
-      "name": "opsecbot",
-      "user": "beginbot",
-      "permitted_users": [
-        "shineslove",
-        "opsecbot",
-        "focadellemarianne",
-        "janpoonthong"
-      ],
-      "health": 6,
-      "cost": 1
-    },
     "1379": {
       "name": "thebabe",
       "user": "beginbot",
@@ -11465,13 +11207,6 @@
         "local_root"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1380": {
-      "name": "v0idrose",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1381": {
@@ -11484,7 +11219,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1382": {
       "name": "imacomputer",
@@ -11493,13 +11228,6 @@
         "zanussbot"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1383": {
-      "name": "vaterzz",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1384": {
@@ -11529,7 +11257,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1387": {
       "name": "guess",
@@ -11546,10 +11274,11 @@
       "user": "beginbot",
       "permitted_users": [
         "erikdotdev",
-        "eitanfuturo"
+        "eitanfuturo",
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1389": {
       "name": "canttell",
@@ -11558,13 +11287,6 @@
         "hardy7cc"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1390": {
-      "name": "andyjamesadams",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
       "cost": 1
     },
     "1391": {
@@ -11576,20 +11298,6 @@
         "cykablondesbot"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1392": {
-      "name": "ricketyrocket",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1393": {
-      "name": "goldzulu",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
       "cost": 1
     },
     "1394": {
@@ -11610,20 +11318,6 @@
       "health": 3,
       "cost": 1
     },
-    "1396": {
-      "name": "jeffblankenburg",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1397": {
-      "name": "ganta_7",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1398": {
       "name": "wyha",
       "user": "beginbot",
@@ -11632,7 +11326,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1399": {
       "name": "liter",
@@ -11700,20 +11394,6 @@
       "health": 3,
       "cost": 1
     },
-    "1406": {
-      "name": "determin1st",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1407": {
-      "name": "rishit_coder",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1408": {
       "name": "firebass",
       "user": "beginbot",
@@ -11723,7 +11403,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1409": {
       "name": "trouble",
@@ -11733,13 +11413,6 @@
         "dataismydrug"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1410": {
-      "name": "biged_twitch",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
       "cost": 1
     },
     "1411": {
@@ -11770,34 +11443,6 @@
       "health": 3,
       "cost": 1
     },
-    "1414": {
-      "name": "slothforcreeping",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1415": {
-      "name": "serjio_sa",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
-    "1416": {
-      "name": "xxsupercuberxx",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1417": {
-      "name": "vexedkiller0071",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1418": {
       "name": "oof",
       "user": "beginbot",
@@ -11811,10 +11456,11 @@
       "name": "mewtwo",
       "user": "beginbot",
       "permitted_users": [
-        "detlion1643"
+        "detlion1643",
+        "tjobremannen"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1420": {
       "name": "scottishshutup",
@@ -11824,7 +11470,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1421": {
       "name": "storm_seeker",
@@ -11840,13 +11486,13 @@
       "name": "thissound",
       "user": "beginbot",
       "permitted_users": [
-        "punchypenguin",
         "physicsplease",
         "cachesking",
-        "detlion1643"
+        "detlion1643",
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 24
+      "cost": 11
     },
     "1423": {
       "name": "boilerrepair",
@@ -11859,14 +11505,7 @@
         "cachesking"
       ],
       "health": 3,
-      "cost": 21
-    },
-    "1424": {
-      "name": "usuallyhigh",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 8,
-      "cost": 1
+      "cost": 10
     },
     "1425": {
       "name": "legendary",
@@ -11883,13 +11522,6 @@
       "permitted_users": [
         "phasen"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1427": {
-      "name": "ciferhd",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -11910,7 +11542,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1430": {
       "name": "alpine",
@@ -11919,13 +11551,6 @@
         "therewillbememes",
         "futubot"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1431": {
-      "name": "cy8erego",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -11951,13 +11576,6 @@
       "health": 3,
       "cost": 1
     },
-    "1434": {
-      "name": "stupac62",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 7,
-      "cost": 1
-    },
     "1435": {
       "name": "phucumolmask",
       "user": "beginbot",
@@ -11972,16 +11590,10 @@
       "name": "dodrio",
       "user": "beginbot",
       "permitted_users": [
-        "the_original_brainkill"
+        "the_original_brainkill",
+        "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1437": {
-      "name": "nineteenletterslong",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
       "cost": 1
     },
     "1438": {
@@ -11989,7 +11601,7 @@
       "user": "beginbot",
       "permitted_users": [
         "stupac62",
-        "opsecbot"
+        "whatsinmyopsec"
       ],
       "health": 3,
       "cost": 1
@@ -12009,10 +11621,11 @@
       "permitted_users": [
         "stupac62",
         "bopojoe_",
-        "prutz1311"
+        "prutz1311",
+        "erikdotdev"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1441": {
       "name": "black",
@@ -12027,7 +11640,7 @@
       "name": "biggus",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -12041,28 +11654,12 @@
       "health": 3,
       "cost": 1
     },
-    "1444": {
-      "name": "girlwithbox",
-      "user": "beginbot",
-      "permitted_users": [
-        "girlwithbox"
-      ],
-      "health": 3,
-      "cost": 1
-    },
-    "1445": {
-      "name": "unlucksmcgee",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
     "1446": {
       "name": "dodgson",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
-        "bopojoe_"
+        "bopojoe_",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -12074,22 +11671,6 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1448": {
-      "name": "novahorizon",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1449": {
-      "name": "yatko",
-      "user": "beginbot",
-      "permitted_users": [
-        "yatko"
-      ],
-      "health": 7,
       "cost": 1
     },
     "1450": {
@@ -12163,13 +11744,6 @@
       "health": 3,
       "cost": 1
     },
-    "1458": {
-      "name": "tinkernthink",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
-      "cost": 1
-    },
     "1459": {
       "name": "pepsi",
       "user": "beginbot",
@@ -12212,7 +11786,8 @@
       "permitted_users": [
         "airtonzanon",
         "rellabami",
-        "melkeydev"
+        "melkeydev",
+        "wellsrite"
       ],
       "health": 3,
       "cost": 1
@@ -12266,14 +11841,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 13
-    },
-    "1469": {
-      "name": "gaodiablo777",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
+      "cost": 5
     },
     "1470": {
       "name": "chubby",
@@ -12282,7 +11850,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1471": {
       "name": "shellder",
@@ -12291,7 +11859,7 @@
         "airtonzanon"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1472": {
       "name": "kentucky",
@@ -12300,7 +11868,7 @@
         "airtonzanon"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1473": {
       "name": "dobetter",
@@ -12310,7 +11878,7 @@
         "copperbeardy"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1474": {
       "name": "thatsmypurse",
@@ -12331,13 +11899,6 @@
       "health": 3,
       "cost": 1
     },
-    "1476": {
-      "name": "was_a_bullfrog",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
     "1477": {
       "name": "stagefright",
       "user": "beginbot",
@@ -12356,7 +11917,7 @@
         "aronwashere"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1479": {
       "name": "nerd",
@@ -12401,7 +11962,8 @@
       "user": "beginbot",
       "permitted_users": [
         "melkeydev",
-        "zanuss"
+        "zanuss",
+        "botriptide"
       ],
       "health": 3,
       "cost": 1
@@ -12410,20 +11972,10 @@
       "name": "argument",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong"
+        "baldclap",
+        "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1485": {
-      "name": "pedrovalentimmm",
-      "user": "beginbot",
-      "permitted_users": [
-        "pedrovalentimmm",
-        "yatko",
-        "thecrappycoder"
-      ],
-      "health": 6,
       "cost": 1
     },
     "1486": {
@@ -12453,20 +12005,6 @@
       "health": 3,
       "cost": 1
     },
-    "1489": {
-      "name": "sillybaboy",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1490": {
-      "name": "meatchops",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1491": {
       "name": "bunbury",
       "user": "beginbot",
@@ -12485,7 +12023,7 @@
         "dataismydrug"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1493": {
       "name": "hardware",
@@ -12525,20 +12063,6 @@
       "health": 3,
       "cost": 1
     },
-    "1497": {
-      "name": "h3nn1ng_c",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1498": {
-      "name": "codenectar",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1499": {
       "name": "emilio",
       "user": "beginbot",
@@ -12555,17 +12079,18 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1501": {
       "name": "appa",
       "user": "beginbot",
       "permitted_users": [
         "whatsinmyopsec",
-        "zanuss"
+        "zanuss",
+        "aquafunkbot"
       ],
       "health": 3,
-      "cost": 1
+      "cost": 2
     },
     "1502": {
       "name": "stayinalive",
@@ -12583,7 +12108,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1504": {
       "name": "poliwhirl",
@@ -12592,7 +12117,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1505": {
       "name": "bbqbetty",
@@ -12621,7 +12146,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1508": {
       "name": "rununtilyoucant",
@@ -12639,7 +12164,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1510": {
       "name": "tellonme",
@@ -12648,7 +12173,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1511": {
       "name": "photograph",
@@ -12658,7 +12183,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1512": {
       "name": "nf",
@@ -12688,27 +12213,6 @@
       "health": 3,
       "cost": 1
     },
-    "1515": {
-      "name": "hellsridge",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1516": {
-      "name": "pandapersonttv",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
-    "1517": {
-      "name": "mondaynightfreehotdogs",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
-      "cost": 1
-    },
     "1518": {
       "name": "government",
       "user": "beginbot",
@@ -12716,7 +12220,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1519": {
       "name": "magmar",
@@ -12725,7 +12229,7 @@
         "baldclap"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1520": {
       "name": "whatsthematter",
@@ -12733,20 +12237,6 @@
       "permitted_users": [
         "teej_dv"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1521": {
-      "name": "m4giktrick",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1522": {
-      "name": "tramstarzz",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -12758,13 +12248,6 @@
         "jac0b2021"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1524": {
-      "name": "codeshow",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1525": {
@@ -12825,13 +12308,6 @@
       "health": 3,
       "cost": 1
     },
-    "1531": {
-      "name": "secretmud",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1532": {
       "name": "fail2",
       "user": "beginbot",
@@ -12839,7 +12315,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1533": {
       "name": "sega",
@@ -12858,7 +12334,7 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1535": {
       "name": "pimpnasty",
@@ -12888,20 +12364,6 @@
       "health": 3,
       "cost": 1
     },
-    "1538": {
-      "name": "sunny_ai",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1539": {
-      "name": "syoonee",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1540": {
       "name": "areyouchoking",
       "user": "beginbot",
@@ -12910,7 +12372,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1541": {
       "name": "tralala",
@@ -12934,15 +12396,8 @@
       "name": "vibe",
       "user": "beginbot",
       "permitted_users": [
-        "gottzstreams"
+        "adrnlnjnky"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1544": {
-      "name": "jdtaylor11",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -12973,13 +12428,6 @@
         "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1548": {
-      "name": "zolor",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 6,
       "cost": 1
     },
     "1549": {
@@ -13027,7 +12475,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1554": {
       "name": "laugh",
@@ -13036,7 +12484,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1555": {
       "name": "graveler",
@@ -13047,7 +12495,7 @@
         "bruce_pt"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1556": {
       "name": "gold",
@@ -13075,20 +12523,6 @@
         "martix5050"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1559": {
-      "name": "mrdemonwolf",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
-    "1560": {
-      "name": "ogjake",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 5,
       "cost": 1
     },
     "1561": {
@@ -13140,13 +12574,6 @@
       "health": 3,
       "cost": 1
     },
-    "1566": {
-      "name": "hazeanderson",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
-    },
     "1567": {
       "name": "disgusting",
       "user": "beginbot",
@@ -13161,7 +12588,7 @@
       "name": "mouthful",
       "user": "beginbot",
       "permitted_users": [
-        "ogjake"
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -13184,25 +12611,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 9
-    },
-    "1571": {
-      "name": "maxthakurcodes",
-      "user": "beginbot",
-      "permitted_users": [
-        "maxthakurcodes"
-      ],
-      "health": 3,
-      "cost": 1
-    },
-    "1572": {
-      "name": "sagefxy",
-      "user": "beginbot",
-      "permitted_users": [
-        "sagefxy"
-      ],
-      "health": 5,
-      "cost": 1
+      "cost": 4
     },
     "1573": {
       "name": "knights",
@@ -13270,13 +12679,6 @@
       "health": 3,
       "cost": 1
     },
-    "1580": {
-      "name": "giannisterpos1",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1581": {
       "name": "quacking",
       "user": "beginbot",
@@ -13316,15 +12718,6 @@
       "health": 3,
       "cost": 1
     },
-    "1585": {
-      "name": "dwarvencoder",
-      "user": "beginbot",
-      "permitted_users": [
-        "dwarvencoder"
-      ],
-      "health": 5,
-      "cost": 1
-    },
     "1586": {
       "name": "happyaccident",
       "user": "beginbot",
@@ -13350,13 +12743,6 @@
       "permitted_users": [
         "unlucksmcgee"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1589": {
-      "name": "godworrior1",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -13387,13 +12773,6 @@
       "health": 3,
       "cost": 1
     },
-    "1593": {
-      "name": "anakimluke",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1594": {
       "name": "deep",
       "user": "beginbot",
@@ -13401,13 +12780,6 @@
         "stupac62",
         "pandapersonttv"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1595": {
-      "name": "disk1of5",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -13517,13 +12889,6 @@
       "health": 3,
       "cost": 1
     },
-    "1607": {
-      "name": "mousedown",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1608": {
       "name": "somemilk",
       "user": "beginbot",
@@ -13541,7 +12906,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1610": {
       "name": "rigged",
@@ -13560,7 +12925,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1612": {
       "name": "welcome",
@@ -13569,7 +12934,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1613": {
       "name": "pleasesleep",
@@ -13579,7 +12944,7 @@
         "sklx_ekko"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1614": {
       "name": "griffin",
@@ -13597,7 +12962,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1616": {
       "name": "inaworld",
@@ -13606,7 +12971,7 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1617": {
       "name": "dewgong",
@@ -13617,7 +12982,7 @@
         "zanussbot"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1618": {
       "name": "ll",
@@ -13626,16 +12991,17 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1619": {
       "name": "wouldyouliketoknowmore",
       "user": "beginbot",
       "permitted_users": [
-        "baldclap"
+        "baldclap",
+        "chiefstrongjaw"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1620": {
       "name": "xaea-12",
@@ -13643,13 +13009,6 @@
       "permitted_users": [
         "baldclap"
       ],
-      "health": 3,
-      "cost": 2
-    },
-    "1621": {
-      "name": "gamerhani123",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -13660,13 +13019,6 @@
         "whatsinmyopsec",
         "shineslove"
       ],
-      "health": 3,
-      "cost": 2
-    },
-    "1623": {
-      "name": "nosdoska",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -13686,15 +13038,6 @@
         "aynstayn"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1626": {
-      "name": "scaleofjustice",
-      "user": "beginbot",
-      "permitted_users": [
-        "scaleofjustice"
-      ],
-      "health": 4,
       "cost": 1
     },
     "1627": {
@@ -13713,7 +13056,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1629": {
       "name": "youdidit",
@@ -13722,7 +13065,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1630": {
       "name": "whathave",
@@ -13731,7 +13074,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1631": {
       "name": "lookathim",
@@ -13740,7 +13083,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1632": {
       "name": "colorbrown",
@@ -13749,7 +13092,7 @@
         "shineslove"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1633": {
       "name": "yourma",
@@ -13757,10 +13100,11 @@
       "permitted_users": [
         "shineslove",
         "whatsinmyopsec",
-        "creative0engineer"
+        "creative0engineer",
+        "mremmalex"
       ],
       "health": 3,
-      "cost": 8
+      "cost": 12
     },
     "1634": {
       "name": "anditsgone",
@@ -13806,17 +13150,10 @@
         "lamb003",
         "whatsinmyopsec",
         "realvindic",
-        "eitanfuturo"
+        "usernamesarelame"
       ],
       "health": 3,
-      "cost": 5
-    },
-    "1639": {
-      "name": "lanop24",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
-      "cost": 1
+      "cost": 2
     },
     "1640": {
       "name": "free",
@@ -13824,13 +13161,6 @@
       "permitted_users": [
         "thanveershah"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1641": {
-      "name": "1monkjuice",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -13851,7 +13181,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1644": {
       "name": "idkwhy",
@@ -13869,7 +13199,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1646": {
       "name": "alfmusic",
@@ -13878,7 +13208,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1647": {
       "name": "someofthesewords",
@@ -13899,13 +13229,6 @@
       "health": 3,
       "cost": 1
     },
-    "1649": {
-      "name": "vagozino",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1650": {
       "name": "nomnom",
       "user": "beginbot",
@@ -13919,8 +13242,8 @@
       "name": "giggle",
       "user": "beginbot",
       "permitted_users": [
-        "nineteenletterslong",
-        "bllaskey"
+        "bllaskey",
+        "adrnlnjnky"
       ],
       "health": 3,
       "cost": 1
@@ -13952,13 +13275,6 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1655": {
-      "name": "levinson2504",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1656": {
@@ -13968,13 +13284,6 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1657": {
-      "name": "awfulwaffl3",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1658": {
@@ -13990,7 +13299,8 @@
       "name": "gof",
       "user": "beginbot",
       "permitted_users": [
-        "zanuss"
+        "zanuss",
+        "eitanfuturo"
       ],
       "health": 3,
       "cost": 1
@@ -14019,13 +13329,6 @@
       "permitted_users": [
         "shineslove"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1663": {
-      "name": "mathefischer",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14060,7 +13363,8 @@
       "name": "win95",
       "user": "beginbot",
       "permitted_users": [
-        "stylepoint"
+        "stylepoint",
+        "shubham_27"
       ],
       "health": 3,
       "cost": 1
@@ -14154,7 +13458,7 @@
         "isaiahvander"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1678": {
       "name": "keeprunning",
@@ -14223,10 +13527,11 @@
       "name": "loa",
       "user": "beginbot",
       "permitted_users": [
-        "isaiahvander"
+        "isaiahvander",
+        "botriptide"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1686": {
       "name": "rotoscoping",
@@ -14245,23 +13550,24 @@
         "detlion1643"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1688": {
       "name": "chill",
       "user": "beginbot",
       "permitted_users": [
         "detlion1643",
-        "opsecbot"
+        "whatsinmyopsec"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1689": {
       "name": "usersusegnu",
       "user": "beginbot",
       "permitted_users": [
-        "lucasfernsilva"
+        "lucasfernsilva",
+        "detlion1643"
       ],
       "health": 3,
       "cost": 2
@@ -14282,7 +13588,7 @@
         "nomorequity"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1692": {
       "name": "holdon",
@@ -14325,7 +13631,7 @@
         "teej_dv"
       ],
       "health": 3,
-      "cost": 17
+      "cost": 8
     },
     "1696": {
       "name": "sweetdreams",
@@ -14365,7 +13671,7 @@
         "polarjunction"
       ],
       "health": 3,
-      "cost": 11
+      "cost": 5
     },
     "1700": {
       "name": "toy",
@@ -14373,13 +13679,6 @@
       "permitted_users": [
         "zanuss"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1701": {
-      "name": "mel_mass",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14414,7 +13713,8 @@
       "name": "kakuna",
       "user": "beginbot",
       "permitted_users": [
-        "unesia"
+        "unesia",
+        "gottzstreams"
       ],
       "health": 3,
       "cost": 1
@@ -14471,20 +13771,6 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1712": {
-      "name": "flyboy1565",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
-    "1713": {
-      "name": "isidentical",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1714": {
@@ -14510,10 +13796,11 @@
       "user": "beginbot",
       "permitted_users": [
         "whatsinmyopsec",
-        "joker_dan"
+        "joker_dan",
+        "wopwop"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1717": {
       "name": "prem",
@@ -14542,7 +13829,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1720": {
       "name": "heyyy",
@@ -14550,13 +13837,6 @@
       "permitted_users": [
         "erikdotdev"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1721": {
-      "name": "strager",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14578,7 +13858,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1724": {
       "name": "sandshrew",
@@ -14625,7 +13905,7 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1729": {
       "name": "tootseeroll",
@@ -14634,13 +13914,6 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1730": {
-      "name": "portaalgaming",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 4,
       "cost": 1
     },
     "1731": {
@@ -14649,13 +13922,6 @@
       "permitted_users": [
         "morgenstern991"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1732": {
-      "name": "that_one_trash_can",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14685,7 +13951,7 @@
         "rockerboo"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1736": {
       "name": "steampunk",
@@ -14711,13 +13977,6 @@
       "permitted_users": [
         "ladka8"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1739": {
-      "name": "omarmiranda",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14765,13 +14024,6 @@
         "rockerboo"
       ],
       "health": 3,
-      "cost": 2
-    },
-    "1745": {
-      "name": "sweeku",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
       "cost": 1
     },
     "1746": {
@@ -14800,7 +14052,7 @@
         "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1749": {
       "name": "ubuntudumb",
@@ -14815,16 +14067,8 @@
       "name": "isthatajojo",
       "user": "beginbot",
       "permitted_users": [
-        "shineslove"
-      ],
-      "health": 3,
-      "cost": 1
-    },
-    "1751": {
-      "name": "noobpr0xy",
-      "user": "beginbot",
-      "permitted_users": [
-        "noobpr0xy"
+        "shineslove",
+        "serax_4"
       ],
       "health": 3,
       "cost": 1
@@ -14862,13 +14106,6 @@
       "permitted_users": [
         "erikdotdev"
       ],
-      "health": 3,
-      "cost": 1
-    },
-    "1756": {
-      "name": "andrelamus",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -14911,7 +14148,8 @@
       "name": "birthday",
       "user": "beginbot",
       "permitted_users": [
-        "arschles"
+        "arschles",
+        "lethalgameaddict2"
       ],
       "health": 3,
       "cost": 1
@@ -14949,19 +14187,11 @@
       "name": "billskis",
       "user": "beginbot",
       "permitted_users": [
-        "erikdotdev"
+        "erikdotdev",
+        "lethalgameaddict2"
       ],
       "health": 3,
-      "cost": 1
-    },
-    "1766": {
-      "name": "crispy_baguette",
-      "user": "beginbot",
-      "permitted_users": [
-        "crispy_baguette"
-      ],
-      "health": 3,
-      "cost": 1
+      "cost": 2
     },
     "1767": {
       "name": "bil",
@@ -14970,13 +14200,6 @@
         "mremmalex",
         "zanuss"
       ],
-      "health": 3,
-      "cost": 2
-    },
-    "1768": {
-      "name": "ravonus",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -15033,7 +14256,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1775": {
       "name": "part",
@@ -15053,18 +14276,12 @@
       "health": 3,
       "cost": 1
     },
-    "1777": {
-      "name": "loner_lena",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1778": {
       "name": "australia2",
       "user": "beginbot",
       "permitted_users": [
-        "yatko"
+        "yatko",
+        "abk16"
       ],
       "health": 3,
       "cost": 1
@@ -15078,7 +14295,7 @@
         "erikdotdev"
       ],
       "health": 3,
-      "cost": 9
+      "cost": 4
     },
     "1780": {
       "name": "beautiful",
@@ -15102,7 +14319,8 @@
       "name": "badday",
       "user": "beginbot",
       "permitted_users": [
-        "rockerboo"
+        "rockerboo",
+        "scaleofjustice"
       ],
       "health": 3,
       "cost": 1
@@ -15123,22 +14341,13 @@
         "zanuss"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1785": {
       "name": "ateam",
       "user": "beginbot",
       "permitted_users": [
         "pedrovalentimmm"
-      ],
-      "health": 3,
-      "cost": 1
-    },
-    "1786": {
-      "name": "creative0engineer",
-      "user": "beginbot",
-      "permitted_users": [
-        "creative0engineer"
       ],
       "health": 3,
       "cost": 1
@@ -15170,13 +14379,14 @@
         "haidook"
       ],
       "health": 3,
-      "cost": 3
+      "cost": 1
     },
     "1790": {
       "name": "drumjob",
       "user": "beginbot",
       "permitted_users": [
-        "tommy_twotoes"
+        "tommy_twotoes",
+        "firlain"
       ],
       "health": 3,
       "cost": 1
@@ -15190,13 +14400,6 @@
       "health": 3,
       "cost": 1
     },
-    "1792": {
-      "name": "thiebt",
-      "user": "beginbot",
-      "permitted_users": [],
-      "health": 3,
-      "cost": 1
-    },
     "1793": {
       "name": "peter",
       "user": "beginbot",
@@ -15204,7 +14407,7 @@
         "mccannch"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1794": {
       "name": "mythdragon",
@@ -15249,7 +14452,7 @@
         "eitanfuturo"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1799": {
       "name": "fastdev",
@@ -15257,13 +14460,6 @@
       "permitted_users": [
         "zanuss"
       ],
-      "health": 3,
-      "cost": 2
-    },
-    "1800": {
-      "name": "aciduk",
-      "user": "beginbot",
-      "permitted_users": [],
       "health": 3,
       "cost": 1
     },
@@ -15289,7 +14485,8 @@
       "name": "pomonedinesha",
       "user": "beginbot",
       "permitted_users": [
-        "blortbot"
+        "blortbot",
+        "mremmalex"
       ],
       "health": 3,
       "cost": 1
@@ -15316,7 +14513,8 @@
       "name": "mescuzi",
       "user": "beginbot",
       "permitted_users": [
-        "communic0re"
+        "communic0re",
+        "usernamesarelame"
       ],
       "health": 3,
       "cost": 1
@@ -15346,7 +14544,7 @@
         "adrnlnjnky"
       ],
       "health": 3,
-      "cost": 2
+      "cost": 1
     },
     "1810": {
       "name": "rules",
@@ -15354,6 +14552,713 @@
       "permitted_users": [
         "luxthor"
       ],
+      "health": 3,
+      "cost": 1
+    },
+    "1811": {
+      "name": "pedrovalentimmm",
+      "user": "beginbot",
+      "permitted_users": [
+        "trgwii",
+        "pedrovalentimmm"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1812": {
+      "name": "detlion1643",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1813": {
+      "name": "hazeanderson",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1814": {
+      "name": "zanuss",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1815": {
+      "name": "usuallyhigh",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1816": {
+      "name": "usernamesarelame",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1817": {
+      "name": "punchypenguin",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1818": {
+      "name": "opsecbot",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1819": {
+      "name": "siren2",
+      "user": "beginbot",
+      "permitted_users": [
+        "zamuro89"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1820": {
+      "name": "cykablondesbot",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1821": {
+      "name": "bangin",
+      "user": "beginbot",
+      "permitted_users": [
+        "adrnlnjnky"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1822": {
+      "name": "goaway",
+      "user": "beginbot",
+      "permitted_users": [
+        "adrnlnjnky"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1823": {
+      "name": "zolor",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1824": {
+      "name": "isaiahvander",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1825": {
+      "name": "ogjake",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1826": {
+      "name": "hellsridge",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1827": {
+      "name": "artmattdank",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1828": {
+      "name": "jacobsm1",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1829": {
+      "name": "mrsmoofy",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1830": {
+      "name": "sagefxy",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1831": {
+      "name": "shineslove",
+      "user": "beginbot",
+      "permitted_users": [
+        "hazeanderson",
+        "shineslove"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1832": {
+      "name": "nicesound",
+      "user": "beginbot",
+      "permitted_users": [
+        "hazeanderson"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1833": {
+      "name": "lucasfernsilva",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1834": {
+      "name": "anakimluke",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1835": {
+      "name": "stupac62",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1836": {
+      "name": "adrnlnjnky",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1837": {
+      "name": "hesher",
+      "user": "beginbot",
+      "permitted_users": [
+        "joker_dan"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1838": {
+      "name": "legotux",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1839": {
+      "name": "nineteenletterslong",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1840": {
+      "name": "luchador",
+      "user": "beginbot",
+      "permitted_users": [
+        "isaiahvander"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1841": {
+      "name": "nomorequity",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1842": {
+      "name": "constrainedcoding",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1843": {
+      "name": "dolphins",
+      "user": "beginbot",
+      "permitted_users": [
+        "truemorpheuz"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1844": {
+      "name": "biged_twitch",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1845": {
+      "name": "acidrain",
+      "user": "beginbot",
+      "permitted_users": [
+        "codingbrix"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1846": {
+      "name": "eitanfuturo",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1847": {
+      "name": "clean",
+      "user": "beginbot",
+      "permitted_users": [
+        "usernamesarelame"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1848": {
+      "name": "jsplague",
+      "user": "beginbot",
+      "permitted_users": [
+        "lucasfernsilva"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1849": {
+      "name": "nirvana",
+      "user": "beginbot",
+      "permitted_users": [
+        "zanuss"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1850": {
+      "name": "rockerboo",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1851": {
+      "name": "artomatt",
+      "user": "beginbot",
+      "permitted_users": [
+        "codingbrix"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1852": {
+      "name": "denied",
+      "user": "beginbot",
+      "permitted_users": [
+        "melkeydev"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1853": {
+      "name": "hotpocket",
+      "user": "beginbot",
+      "permitted_users": [
+        "adrnlnjnky"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1854": {
+      "name": "aquafunkalisticbootywhap",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1855": {
+      "name": "booya",
+      "user": "beginbot",
+      "permitted_users": [
+        "isaiahvander"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1856": {
+      "name": "onaboat",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1857": {
+      "name": "aquafunkbot",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1858": {
+      "name": "catthrow",
+      "user": "beginbot",
+      "permitted_users": [
+        "stupac62"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1859": {
+      "name": "determin1st",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1860": {
+      "name": "sueme",
+      "user": "beginbot",
+      "permitted_users": [
+        "lucasfernsilva"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1861": {
+      "name": "airlinesfail",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1862": {
+      "name": "arbaya",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1863": {
+      "name": "thatsmedarling",
+      "user": "beginbot",
+      "permitted_users": [
+        "stupac62"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1864": {
+      "name": "gimp",
+      "user": "beginbot",
+      "permitted_users": [
+        "laaman",
+        "usernamesarelame",
+        "whatsinmyopsec"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1865": {
+      "name": "whatsinmyopsec",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1866": {
+      "name": "slothforcreeping",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1867": {
+      "name": "handbagremix",
+      "user": "beginbot",
+      "permitted_users": [
+        "tommy_twotoes",
+        "adrnlnjnky"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1868": {
+      "name": "baldclap",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1869": {
+      "name": "cachesking",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1870": {
+      "name": "brassmonkey",
+      "user": "beginbot",
+      "permitted_users": [
+        "hazeanderson",
+        "zolor"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1871": {
+      "name": "trgwii",
+      "user": "beginbot",
+      "permitted_users": [
+        "trgwii",
+        "krazynez_2",
+        "zanussbot"
+      ],
+      "health": 3,
+      "cost": 3
+    },
+    "1872": {
+      "name": "awfulwaffl3",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1873": {
+      "name": "thinker",
+      "user": "beginbot",
+      "permitted_users": [
+        "nineteenletterslong"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1874": {
+      "name": "continue",
+      "user": "beginbot",
+      "permitted_users": [
+        "trgwii"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1875": {
+      "name": "godworrior1",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1876": {
+      "name": "andyjamesadams",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1877": {
+      "name": "andrelamus",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1878": {
+      "name": "want",
+      "user": "beginbot",
+      "permitted_users": [
+        "nineteenletterslong"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1879": {
+      "name": "satan",
+      "user": "beginbot",
+      "permitted_users": [
+        "pedrovalentimmm"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1880": {
+      "name": "death",
+      "user": "beginbot",
+      "permitted_users": [
+        "gottzstreams"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1881": {
+      "name": "lethalgameaddict2",
+      "user": "beginbot",
+      "permitted_users": [
+        "lethalgameaddict2"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1882": {
+      "name": "whatisup",
+      "user": "beginbot",
+      "permitted_users": [
+        "simpathey"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1883": {
+      "name": "simpathey",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1884": {
+      "name": "idothat",
+      "user": "beginbot",
+      "permitted_users": [
+        "simpathey"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1885": {
+      "name": "iloveputer",
+      "user": "beginbot",
+      "permitted_users": [
+        "detlion1643"
+      ],
+      "health": 3,
+      "cost": 2
+    },
+    "1886": {
+      "name": "wellsrite",
+      "user": "beginbot",
+      "permitted_users": [
+        "wellsrite"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1887": {
+      "name": "getschwifty",
+      "user": "beginbot",
+      "permitted_users": [
+        "wellsrite"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1888": {
+      "name": "doduo",
+      "user": "beginbot",
+      "permitted_users": [
+        "spielprogrammierer"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1889": {
+      "name": "copenhagen",
+      "user": "beginbot",
+      "permitted_users": [
+        "cykablondesbot"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1890": {
+      "name": "ninetales",
+      "user": "beginbot",
+      "permitted_users": [
+        "krazynez_2"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1891": {
+      "name": "sade",
+      "user": "beginbot",
+      "permitted_users": [
+        "pedrovalentimmm",
+        "hazeanderson"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1892": {
+      "name": "haidook",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1893": {
+      "name": "frodosecrets",
+      "user": "beginbot",
+      "permitted_users": [
+        "trgwii"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1894": {
+      "name": "flyboy1565",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1895": {
+      "name": "gun",
+      "user": "beginbot",
+      "permitted_users": [
+        "ogbrainkill"
+      ],
+      "health": 3,
+      "cost": 1
+    },
+    "1896": {
+      "name": "india",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1897": {
+      "name": "france",
+      "user": "beginbot",
+      "permitted_users": [],
+      "health": 3,
+      "cost": 1
+    },
+    "1898": {
+      "name": "turkey",
+      "user": "beginbot",
+      "permitted_users": [],
       "health": 3,
       "cost": 1
     }

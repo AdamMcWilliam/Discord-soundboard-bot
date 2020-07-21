@@ -14,11 +14,13 @@ A bot that joins a discord and plays sounds when requested.
 
 !me                 | returns users website https://mygeoangelfirespace.city/[discordDisplayName].html
 
-!perms [soundeffect]| returns the owners of a soundeffect
+!perms              | returns the sounds owned by user.
+
+!perms [soundeffect] | returns the owners of a soundeffect
 
 !pokemon            | Starts a pokemon guessing game
 
-!guess [pokemon name]| make a guess
+!guess [pokemon name] | make a guess
 
  
 # Additional Dependencies

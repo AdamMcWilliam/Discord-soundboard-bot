@@ -118,10 +118,8 @@ def getSound(sound, user):
         
         for value in data:
             try:
-                #print(data[f"{value}"]['name'])
                 if(data[f"{value}"]['name'] == sound):
                     permittedUsers = data[f"{value}"]['permitted_users']
-                    #print(permittedUsers)
                     for j in permittedUsers:
                         if(j == user):
                             print('Sound owned.')
@@ -131,6 +129,14 @@ def getSound(sound, user):
         
         print('sound not owned.')
         return False
+
+#Is sound accepted by community
+def getSoundPopularity(sound):
+
+    with open('json/sfx_vote.json') as json_file:
+        data = json.load(json_file)
+    
+    pass
 
 
 #if user joins voice chat, play their theme song
@@ -280,13 +286,21 @@ async def me(ctx):
 async def permissions(ctx):
     print(ctx.message.content)
 
-    soundeffect = ctx.message.content.split('!perms ')
-    soundeffect = soundeffect[1]
+    username = ctx.author.display_name.lower()
 
+    soundeffect = ctx.message.content.split('!perms ')
+    try:
+        soundeffect = soundeffect[1]
+    except IndexError:
+        soundeffect = ""
+        pass
+    
     with open('json/commands.json') as json_file:
-        data = json.load(json_file)
-        data = data['commands']
-        
+            data = json.load(json_file)
+            data = data['commands']
+
+    #if there is a soundeffect
+    if soundeffect:
         for value in data:
             try:
                 if(data[f"{value}"]['name'] == soundeffect):
@@ -294,7 +308,21 @@ async def permissions(ctx):
             except KeyError:
                 continue
 
-    await ctx.channel.send(f"Users that own sound: {soundeffect}: {permittedUsers}")
+        await ctx.channel.send(f"Users that own sound: {soundeffect}: {permittedUsers}")
+    
+    #if just !perms they want the sound they own
+    else:
+        ownedSounds = []
+
+        for value in data:
+            try:
+                if username in data[f"{value}"]['permitted_users']:
+                    #add to array
+                    ownedSounds.append(data[f"{value}"]['name'])
+            except KeyError:
+                continue
+
+        await ctx.channel.send(f"@{username}: Your owned sounds: {ownedSounds}")
 
 
 

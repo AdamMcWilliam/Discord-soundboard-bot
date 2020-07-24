@@ -13,6 +13,29 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix = "!")
 
+def playFromQueue(ctx, filePath):
+
+    with open('queue.txt', 'r') as fin:
+        first_sound = fin.readline()
+        data = fin.read().splitlines(True)
+        
+    with open('queue.txt', 'w') as fout:
+        fout.writelines(data[1:])
+
+    print(first_sound)
+
+    ctx.voice_client.play(discord.FFmpegPCMAudio(f"{filePath}"), after=lambda e: print('done', e))
+    
+
+
+def addToQueue(sound):     
+
+        queueFileWrite = open("queue.txt", "a")
+        queueFileWrite.write(sound)
+        queueFileWrite.write("\n")
+        queueFileWrite.close()
+
+
 def getPokemon():
     pokemonNames = ['Bulbasaur','Ivysaur','Venusaur','Charmander',
     'Charmeleon','Charizard','Squirtle','Wartortle','Blastoise',
@@ -172,6 +195,12 @@ async def on_voice_state_update(member, before, after):
             member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}.{ext}"), after=lambda e: print('done', e))   
 
 
+#test playing from queue
+@bot.command(name="playtest", description = "just testing", pass_context=True)
+async def playtest(ctx):
+    playFromQueue(ctx, filePath)
+
+
 #pokemonGuessing Game
 @bot.command(name="pokemon", description = "Starts pokemon game", pass_context=True)
 async def pokemonStart(ctx):
@@ -272,8 +301,11 @@ async def playSound(ctx):
                 soundsFilePath = "C:/gits/twitch-soundboard/"
                 ext = getRealSound(soundsFilePath, soundeffect)
                 print(f"trying to play {soundeffect}")
-                ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}.{ext}"), after=lambda e: print('done', e))
+                #ctx.voice_client.play(discord.FFmpegPCMAudio(f"{soundsFilePath}{soundeffect}.{ext}"), after=lambda e: print('done', e))
+                filePath = f"{soundsFilePath}{soundeffect}.{ext}"
                 useMana(username)
+                addToQueue(soundeffect)
+                playFromQueue(ctx, filePath)
             else:
                 await ctx.channel.send(f"@{username} The people have spoken and everyone hates this sound, im not playing it.")
         else:

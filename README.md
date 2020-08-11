@@ -7,7 +7,7 @@ Using this repo for sounds: https://github.com/davidbegin/twitch-soundboard
 A bot that joins a discord and plays sounds when requested.
 
 # Demo
-![Discord Soundboard Bot Demo](demo/discordBotDemo.gif)
+![Discord Soundboard Bot Demo](demos/discordBotDemo.gif)
 
 
 <a href="https://youtu.be/4CMSl1SNCzo">Video Link</a>

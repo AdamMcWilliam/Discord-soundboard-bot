@@ -195,12 +195,6 @@ async def on_voice_state_update(member, before, after):
             member.guild.voice_client.play(discord.FFmpegPCMAudio(f"{themeSoundsFilePath}{user}.{ext}"), after=lambda e: print('done', e))   
 
 
-#test playing from queue
-@bot.command(name="playtest", description = "just testing", pass_context=True)
-async def playtest(ctx):
-    playFromQueue(ctx, filePath)
-
-
 #pokemonGuessing Game
 @bot.command(name="pokemon", description = "Starts pokemon game", pass_context=True)
 async def pokemonStart(ctx):
